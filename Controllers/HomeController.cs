@@ -8,7 +8,7 @@ public class HomeController : Controller
         {
             new StudentInfoModel { Name = "John Doe", StudentId = "S001", StudentAge = "20" },
             new StudentInfoModel { Name = "Jane Smith", StudentId = "S002", StudentAge = "22" },
-            new StudentInfoModel { Name = "Mike Johnson", StudentId = "S003", StudentAge = "31" }
+            new StudentInfoModel { Name = "Feona Gana", StudentId = "S003", StudentAge = "31" }
         };
 
         return View(studentInfoArray);
